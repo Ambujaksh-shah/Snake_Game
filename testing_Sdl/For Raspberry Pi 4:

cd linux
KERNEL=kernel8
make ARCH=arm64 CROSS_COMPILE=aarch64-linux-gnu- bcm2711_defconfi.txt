@@ -1,0 +1,7 @@
+For Raspberry Pi 4:
+
+cd linux
+KERNEL=kernel8
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- bcm2711_defconfig
+Build with configs
+Note: To speed up compilation on multiprocessor systems, and get some improvement on single processor ones, use -j n, where n is the number of processors * 1.5. Alternative

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Testing.dir/src/OpenningWindow.cpp.o -o Testing  -lSDL2 
